@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <h1>Arrays in JS.</h1>
+    <SCRipt>
+        var a = [10,20,30,40];
+        var b = [10, 0.5, "abc"];
+        var c = {"name":"Cads", "rNo":10, "perc":80 };
+        var d = [100, 200, 300, 400, 500];
+
+        document.writeln(a[0] + "<br>");
+        document.writeln(a[1] + "<br>");
+        document.writeln(a[2] + "<br>");
+        document.writeln(b[0] + "<br>");
+        document.writeln(b[1] + "<br>");
+        document.writeln(b[2] + "<br>");
+        document.writeln(typeof(a) + "<br>");
+        document.writeln(typeof(b) + "<br>");
+        document.writeln(typeof(a[0]) + "<br>");
+        document.writeln(typeof(b[1]) + "<br>");
+        document.writeln(typeof(b[2]) + "<br>");
+
+        //length property.
+
+        document.writeln(a.length + "<br>");
+        document.writeln(b.length + "<br>");
+
+
+        //accessing a named index ie var c
+        
+        document.writeln(c.name + "<br>");
+        document.writeln(c.rNo + "<br>");
+        document.writeln(c.perc + "<br>");
+
+        //accessing using loop still using var a
+
+        for(i=0; i<a.length; i++){
+            document.writeln(a[i] + "<br>")
+        }
+
+        //replacing values using var d
+
+        d[0] = 88;
+        d[6] = 1000;
+        document.writeln(d + "<br>");
+
+        //Deletion in Js
+
+        var e = ["a", 40, "abc", 0.5];
+        document.writeln(delete e[1] + "<br>");
+
+        //isArrayFunction
+
+        var t = [1,2,3,4,5,6];
+        document.writeln(Array.isArray(t) + "<br>");
+
+        var n=10;
+        document.writeln(Array.isArray(n) + "<br>");
+
+
+
+
+    </SCRipt>
+</body>
+</html>

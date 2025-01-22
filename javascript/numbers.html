@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <h1>Numbers in JS.</h1>
+
+    <script>
+        var a = 10 + 20;
+        var b = "10" + "20"; //concatnation
+        var c = 10 + 20 + "30";
+        var d = "30" + 10 + 20;
+        var e = 10 - 20;
+        var f = "20" - 10; //string turns to the numeric
+        var g = "20" * 10; //string turns to the numeric
+        var h = "20" / 10; //string turns to the numeric
+        var i = "20" / "10"; //string turns to the numeric
+        var j = 20 / "ABC"; // NaN- Not a Number
+        var k = 20 / 0; //infinity
+
+        var x = 15;
+        var y = 20;
+
+        document.writeln(a + "<br>");
+        document.writeln(b + "<br>");
+        document.writeln(c + "<br>");
+        document.writeln(d + "<br>");
+        document.writeln(e + "<br>");
+        document.writeln(d + "<br>");
+        document.writeln(f + "<br>");
+        document.writeln(g + "<br>");
+        document.writeln(h + "<br>");
+        document.writeln(i + "<br>");
+        document.writeln(j + "<br>");
+        document.writeln(k + "<br>");
+
+//decimal to base using tostring(base) 
+        document.writeln(x.toString(2) + "<br>");
+        document.writeln(x.toString(8) + "<br>");
+        document.writeln(x.toString(16) + "<br>");
+        document.writeln(x.toString(10) + "<br>");
+        document.writeln(x.toString(4) + "<br>");
+        document.writeln(y.toString(2) + "<br>");
+        document.writeln(y.toString(8) + "<br>");
+        document.writeln(y.toString(16) + "<br>");
+        document.writeln(y.toString(10) + "<br>");
+        document.writeln(y.toString(4) + "<br>");
+    </script>
+</body>
+</html>

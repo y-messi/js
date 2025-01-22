@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <h1>Date Object</h1>
+
+    <script>
+        var d = new Date();
+        var e = new Date(99, 11, 3, 12, 30, 21, 0);
+
+        document.writeln(d + "<br>" + "<br>");
+
+        //get method in date
+        document.writeln(d.getFullYear() + "<br>");
+        document.writeln(d.getMonth() + "<br>");
+        document.writeln(d.getDay() + "<br>");
+        document.writeln(d.getDate() + "<br>");
+        document.writeln(d.getHours() + "<br>");
+        document.writeln(d.getMinutes() + "<br>");
+        document.writeln(d.getSeconds() + "<br>");
+        document.writeln(d.getMilliseconds() + "<br>");
+        document.writeln(d.getTime() + "<br>" + "<br>");
+
+        document.writeln(e.getFullYear() + "<br>");
+        document.writeln(e.getMonth() + "<br>");
+        document.writeln(e.getDay() + "<br>");
+        document.writeln(e.getDate() + "<br>");
+        document.writeln(e.getHours() + "<br>");
+        document.writeln(e.getMinutes() + "<br>");
+        document.writeln(e.getSeconds() + "<br>");
+        document.writeln(e.getMilliseconds() + "<br>");
+        document.writeln(e.getTime() + "<br>");
+
+
+        //set method in date
+
+
+        document.writeln(d.setFullYear(2001) + "<br>");
+        document.writeln(d.setMonth(1) + "<br>");
+        document.writeln(d.setDay(3) + "<br>");
+        document.writeln(d.setDate(4) + "<br>");
+        document.writeln(d.setHours(12) + "<br>");
+        document.writeln(d.setMinutes(23) + "<br>");
+        document.writeln(d.setSeconds(44) + "<br>");
+        document.writeln(d.setMilliseconds(0) + "<br>");
+        document.writeln(d.setTime(0) + "<br>" + "<br>");
+
+        document.writeln(e.setFullYear(2023) + "<br>");
+        document.writeln(e.setMonth(12) + "<br>");
+        document.writeln(e.setDay(2) + "<br>");
+        document.writeln(e.setDate(4) + "<br>");
+        document.writeln(e.setHours(6) + "<br>");
+        document.writeln(e.setMinutes(19) + "<br>");
+        document.writeln(e.setSeconds(90) + "<br>");
+        document.writeln(e.setMilliseconds(1111) + "<br>");
+        document.writeln(e.setTime(0) + "<br>");
+
+    </script>
+    
+</body>
+</html>

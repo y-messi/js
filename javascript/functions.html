@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <h1>Functions in JS.</h1>
+
+    <script>
+        // function function_name(parameter list){statements>return}function call.
+        
+        function add(x,y){
+            document.writeln((x + y) + "<br>");
+        }
+        add(10,20);
+
+        //function without parameters and without returning values
+        function wishHi(){
+            document.writeln("hi cads", "<br>");
+        }
+        wishHi
+
+
+        //function without parameters and with returning value
+
+        function cads(){
+            return "hello Sir";
+        }
+        document.writeln(cads() + "<br>");
+
+
+        //function with parameters and without a returning value
+
+        function you(what){
+            document.writeln(what, "<br>");
+        }
+        you("A good morning");
+        you("have a nice lunch");
+
+
+        //function with parameters and returning values
+
+        function myFunction(num1, num2){
+            return num1 + num2;
+        }
+        document.writeln(myFunction(2,3));
+
+    </script>
+</body>
+</html>
